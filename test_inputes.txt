@@ -1,0 +1,225 @@
+╔══════════════════════════════════════════════════════════════════════════════════╗
+║              🇮🇳  SARVAM AI API TESTER — TEST INPUTS                           ║
+║         Copy-paste these inputs directly into the app to test each feature      ║
+╚══════════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐  FEATURE 1 — TRANSLATION  (Tab: "🌐 Translation")
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+── Test Input A ──
+  Source Language : Auto-detect
+  Target Language : Hindi
+  Speaker Gender  : Male
+  Text to Paste   :
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │ Artificial intelligence is transforming every industry in the world today.  │
+  │ From healthcare to agriculture, machines are helping humans work smarter.   │
+  └─────────────────────────────────────────────────────────────────────────────┘
+  Expected Output : Hindi translation about AI transforming industries.
+
+── Test Input B ──
+  Source Language : Auto-detect
+  Target Language : Tamil
+  Speaker Gender  : Female
+  Text to Paste   :
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │ My name is Priya and I live in Chennai. I love eating dosa and idli for     │
+  │ breakfast every morning before going to my office.                          │
+  └─────────────────────────────────────────────────────────────────────────────┘
+  Expected Output : Tamil translation about Priya's daily routine.
+
+── Test Input C ──
+  Source Language : Hindi
+  Target Language : Gujarati
+  Speaker Gender  : Male
+  Text to Paste   :
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │ आज मौसम बहुत अच्छा है। हम पार्क में जाकर क्रिकेट खेलेंगे।                │
+  └─────────────────────────────────────────────────────────────────────────────┘
+  Expected Output : Gujarati translation about nice weather and cricket.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍  FEATURE 2 — LANGUAGE DETECTION  (Tab: "🔍 Lang Detect")
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+── Test Input A — Hindi ──
+  Text to Paste :
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │ नमस्ते, मेरा नाम राहुल है। मैं दिल्ली में रहता हूँ और एक                 │
+  │ सॉफ्टवेयर इंजीनियर हूँ। मुझे क्रिकेट और बॉलीवुड संगीत बहुत पसंद है।    │
+  └─────────────────────────────────────────────────────────────────────────────┘
+  Expected Output : Language Code → hi-IN | Script → Deva
+
+── Test Input B — Tamil ──
+  Text to Paste :
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │ வணக்கம்! என் பெயர் கார்த்திக். நான் சென்னையில் வசிக்கிறேன்.              │
+  │ தமிழ் மொழி உலகின் மிகவும் பழமையான மொழிகளில் ஒன்று.                      │
+  └─────────────────────────────────────────────────────────────────────────────┘
+  Expected Output : Language Code → ta-IN | Script → Taml
+
+── Test Input C — Bengali ──
+  Text to Paste :
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │ আমার নাম সুমিত। আমি কলকাতায় থাকি। বাংলা আমার মাতৃভাষা                 │
+  │ এবং আমি এই ভাষাকে অনেক ভালোবাসি।                                         │
+  └─────────────────────────────────────────────────────────────────────────────┘
+  Expected Output : Language Code → bn-IN | Script → Beng
+
+── Test Input D — Telugu ──
+  Text to Paste :
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │ నమస్కారం! నా పేరు వెంకట్. నేను హైదరాబాద్‌లో నివసిస్తున్నాను.            │
+  │ తెలుగు మాట్లాడటం నాకు చాలా ఇష్టం.                                        │
+  └─────────────────────────────────────────────────────────────────────────────┘
+  Expected Output : Language Code → te-IN | Script → Telu
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔊  FEATURE 3 — TEXT-TO-SPEECH  (Tab: "🔊 Text-to-Speech")
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+── Test Input A — Hindi Female Voice ──
+  Language : Hindi
+  Speaker  : anushka   ← female voice
+  Pace     : 1.0
+  Text to Paste :
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │ नमस्ते! मैं सर्वम AI हूँ। मैं भारत की सभी प्रमुख भाषाओं में             │
+  │ बोल सकती हूँ। आज का मौसम बहुत सुंदर है, है ना?                           │
+  └─────────────────────────────────────────────────────────────────────────────┘
+  Expected Output : WAV audio in a natural Hindi female voice.
+
+── Test Input B — Hindi Male Voice ──
+  Language : Hindi
+  Speaker  : abhilash   ← male voice
+  Pace     : 1.0
+  Text to Paste :
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │ भारत एक विविधताओं से भरा देश है। यहाँ सैकड़ों भाषाएँ और                 │
+  │ संस्कृतियाँ एक साथ मिलकर रहती हैं। यही हमारी असली पहचान है।             │
+  └─────────────────────────────────────────────────────────────────────────────┘
+  Expected Output : WAV audio in a clear Hindi male voice.
+
+── Test Input C — Tamil Voice (slow pace) ──
+  Language : Tamil
+  Speaker  : vidya
+  Pace     : 0.8   ← slightly slower, good for listening practice
+  Text to Paste :
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │ தமிழ்நாட்டின் தலைநகரம் சென்னை. இங்கே கோவில்கள், கடற்கரை,               │
+  │ மற்றும் சுவையான உணவுகள் காணப்படுகின்றன.                                  │
+  └─────────────────────────────────────────────────────────────────────────────┘
+  Expected Output : WAV audio in Tamil with slightly slower pace.
+
+── Test Input D — English via Sarvam ──
+  Language : English
+  Speaker  : neha
+  Pace     : 1.2   ← slightly faster
+  Text to Paste :
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │ Welcome to Sarvam AI, the most powerful Indian language AI platform.        │
+  │ We support over twenty-two Indian languages with state-of-the-art models.  │
+  └─────────────────────────────────────────────────────────────────────────────┘
+  Expected Output : WAV audio in English with Indian accent.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎤  FEATURE 4 — SPEECH-TO-TEXT  (Tab: "🎤 Speech-to-Text")
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NOTE: STT requires an audio file upload. You can:
+  (a) Use the WAV files you download from the TTS tab above — perfect for loopback testing!
+  (b) Record your own voice using your phone's voice recorder app and upload it.
+  (c) Use any short audio clip (WAV/MP3/OGG/FLAC/M4A) under 30 seconds.
+
+── Test Input A — Transcribe Hindi Audio ──
+  Audio File : Any Hindi WAV (e.g., downloaded from TTS tab above)
+  Model      : saaras:v3
+  Mode       : transcribe
+  Expected Output : Hindi text matching what was spoken in the audio.
+
+── Test Input B — Translate Indian Language to English ──
+  Audio File : Any Hindi/Tamil/Telugu WAV file
+  Model      : saaras:v3
+  Mode       : translate
+  Expected Output : English translation of what was spoken.
+
+── Test Input C — Transliterate (Romanize) ──
+  Audio File : Hindi WAV file (e.g., downloaded from TTS tab)
+  Model      : saaras:v3
+  Mode       : translit
+  Expected Output : Roman script version (e.g., "namaste aap kaise hain")
+
+── Test Input D — Verbatim Transcription ──
+  Audio File : Any clear Indian language audio, under 30 seconds
+  Model      : saaras:v3
+  Mode       : verbatim
+  Expected Output : Word-for-word transcription without any normalization.
+
+💡 TIP — Loopback Test (TTS → STT):
+  1. Go to the 🔊 Text-to-Speech tab
+  2. Generate audio from any test input above
+  3. Click "⬇️ Download WAV" to save it
+  4. Go to the 🎤 Speech-to-Text tab
+  5. Upload that WAV file
+  6. Check if the transcript matches what you typed in TTS!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊  FEATURE 5 — API HEALTH CHECK  (Tab: "📊 API Health")
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  No inputs needed — just click the button!
+
+  Action          : Click "🚀 Run Health Check on All Endpoints"
+  Expected Output :
+    ✅ Translation     HTTP 200   ~0.8s
+    ✅ Lang Detection  HTTP 200   ~0.3s
+    ✅ Text-to-Speech  HTTP 200   ~1.2s
+
+  If you see ❌ on any endpoint:
+    • HTTP 401 → Your API key is invalid or not set in .env
+    • HTTP 429 → You've hit your rate limit, wait 60 seconds
+    • HTTP 500 → Sarvam server issue, try again later
+    • ERR      → Network/timeout issue, check your internet connection
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📌  QUICK REFERENCE — SUPPORTED LANGUAGES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Language    Code     Script
+  ─────────────────────────────
+  Hindi       hi-IN    Devanagari
+  Bengali     bn-IN    Bengali
+  Kannada     kn-IN    Kannada
+  Malayalam   ml-IN    Malayalam
+  Marathi     mr-IN    Devanagari
+  Odia        od-IN    Odia
+  Punjabi     pa-IN    Gurmukhi
+  Tamil       ta-IN    Tamil
+  Telugu      te-IN    Telugu
+  Gujarati    gu-IN    Gujarati
+  English     en-IN    Latin
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📌  QUICK REFERENCE — ALL 44 VALID TTS SPEAKERS (Bulbul v2)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Female voices (suggested): anushka, manisha, vidya, arya, ritu, priya, neha,
+    pooja, simran, kavya, ishita, shreya, tanya, shruti, suhani, kavitha, rupali,
+    roopa, mani, soham
+
+  Male voices (suggested): abhilash, karun, hitesh, aditya, rahul, rohan, amit,
+    dev, ratan, varun, manan, sumit, kabir, aayan, shubh, ashutosh, advait,
+    anand, tarun, sunny, gokul, vijay, mohit, rehan, soham, shubh
+
+  Full list: anushka, abhilash, manisha, vidya, arya, karun, hitesh, aditya,
+    ritu, priya, neha, rahul, pooja, rohan, simran, kavya, amit, dev, ishita,
+    shreya, ratan, varun, manan, sumit, roopa, kabir, aayan, shubh, ashutosh,
+    advait, anand, tanya, tarun, sunny, mani, gokul, vijay, shruti, suhani,
+    mohit, kavitha, rehan, soham, rupali
